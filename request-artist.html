@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Shubham" />
+    <title>Request a New Artist - DesiTunes</title>
+    <link rel="stylesheet" href="./css/water.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Request a New Artist</h1>
+    </header>
+
+    <main>
+      <form id="artist-request-form">
+        <label for="artist-name">Artist Name:</label>
+        <input type="text" id="artist-name" name="artist-name" required />
+
+        <label for="genre">Genre:</label>
+        <input list="genres" id="genre" name="genre" required />
+        <datalist id="genres">
+          <option value="Pop"></option>
+          <option value="Hip-Hop"></option>
+          <option value="Rock"></option>
+          <option value="Classical"></option>
+          <option value="Electronic"></option>
+          <option value="Folk"></option>
+          <option value="Jazz"></option>
+          <option value="R&B"></option>
+          <option value="Reggae"></option>
+          <option value="Country"></option>
+        </datalist>
+
+        <label>Social Media Links:</label>
+        <div id="social-links">
+          <input type="url" name="social-links" placeholder="Enter a social media link" />
+        </div>
+        <button type="button" id="add-social-link">Add More Links</button>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4"></textarea>
+
+        <label>
+          <input type="checkbox" name="explicit" />
+          Contains Explicit Lyrics
+        </label>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <script>
+      document.getElementById("add-social-link").addEventListener("click", () => {
+        const input = document.createElement("input");
+        input.type = "url";
+        input.name = "social-links";
+        input.placeholder = "Enter another social media link";
+        document.getElementById("social-links").appendChild(input);
+      });
+
+      document.getElementById("artist-request-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+        alert("Your request has been submitted!");
+      });
+    </script>
+  </body>
+</html>
