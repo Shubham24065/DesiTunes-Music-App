@@ -8,7 +8,7 @@ window.songs = [
     duration: 160,
     url: "https://youtu.be/xIXGoIwNeUc?si=C8_8bBbHrdrqWLDp",
     explicit: false,
-    imageUrl: "https://i.ytimg.com/vi/C-m2W0zfDmQ/hqdefault.jpg"
+    imageUrl: "https://tse1.mm.bing.net/th?id=OIP.eov20z1T-f7lpSH-sh0zhQHaEK&pid=Api&P=0&h=180"
   },
   {
     songId: "SID-10002",
