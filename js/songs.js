@@ -103,7 +103,7 @@ window.songs = [
     duration: 203,
     url: "https://youtu.be/IS1_l8Ja4S8?si=m4wCGyDnak4Zm3RP",
     explicit: false,
-    imageUrl: "https://www.moosajatt.in/wp-content/uploads/2021/11/Reason-Lyrics-%E2%80%93-Khasa-Aala-Chahar.jpg"
+    imageUrl: "https://tse1.mm.bing.net/th?id=OIP.KOuLoPMG5EzVIf7Nuueg8gHaEK&pid=Api&P=0&h=180"
   },
   {
     songId: "SID-10011",
