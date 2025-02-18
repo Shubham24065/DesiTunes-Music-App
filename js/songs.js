@@ -123,7 +123,7 @@ window.songs = [
     duration: 276,
     url: "https://youtu.be/Ip4tmEVsd8k?si=2X9ftW1fWBu-ei-3",
     explicit: false,
-    imageUrl: "https://tellyflight.com/lyrics/wp-content/uploads/2021/05/Ip4tmEVsd8k-HD.jpg"
+    imageUrl: "https://timesofindia.indiatimes.com/photo/85122383/size-30160/85122383.jpg"
   },
 
   // Diljit Dosanjh Songs
